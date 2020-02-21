@@ -1,0 +1,14 @@
+.top-line{
+    background-color: #E81C1C;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.izquierda{
+    ;
+}
+
