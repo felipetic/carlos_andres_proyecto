@@ -205,7 +205,7 @@
     justify-content: space-around;
 }
 
-.img_tamano{
+.img_category{
     height: auto;
     width: 400px;
     border-radius: 50%;
@@ -232,5 +232,15 @@
 }
 
 .mas_vendidos {
-    
+    border: black solid;
+    display: flex;
+    justify-content: space-around;
 }
+
+.img_mas_vendido  {
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
