@@ -1,5 +1,9 @@
-/* cambio tamaño fuente */
+/* * {
+    margin:0;
+    padding: 0;
+} */
 
+/* cambio tamaño fuente */
 .top-line {
     font-size: 20px;
 }
@@ -113,6 +117,7 @@
     display: block;
 }
 
+/* estilos para el menu de busqueda */
 .abajo {
     display: flex;
     justify-content: space-around;
@@ -132,6 +137,8 @@
 }
 
 .busqueda {
+    margin-top: 50px;
+    margin-bottom: 40px;
     height: 70px;
     width: 480px;
     padding-top: 30px;
@@ -142,6 +149,45 @@
   font-size: 25px;  
 }
 
+/* estilos para el boton de busqueda */
 .boton_busqueda {
     font-size: 25px; 
+    background-color: #E81C1C;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    box-shadow: grey 10px;
+}
+
+/* estilos para el navbar intermedio */
+.nav_intermedio{
+    background-color: #2A1717;
+    font-size: 50px;
+    color: white;
+    height: 180px;
+    padding-top: 30px;
+}
+
+.marcas{  
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.sec_img_portada {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_portada {
+    padding-left: 200px;
+    height: 800px;
+    width: 1500px;
+}
+
+.texto_principal {
+    width: 600px;
+    font-size: 80px;
+    padding-top: 180px;
+    font-family: 'Amatic SC' ;
 }
