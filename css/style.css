@@ -17,7 +17,7 @@
     /*flex-wrap: wrap;*/
     background-color: #E81C1C;
     justify-content: space-between;
-    height: 120px;
+    height: 100px;
     width: 100%;
 }
 
@@ -52,7 +52,7 @@
 /* parametros para la parte derecha del nav */
 
 .derecha {
-    width: 1200px;
+    width: 740px;
     height: 95px;
 }
 
@@ -74,16 +74,16 @@
     display: block;
     text-decoration: none;
     font-weight: 400;
-    padding: 10px;
+    padding: 9px;
 }
 
 .barra ul li {
     position: relative;
     justify-content: space-around;
     float: left;
-    margin-right: 50px;
-    margin-left: 50px;
-    padding-right: 50px;
+    margin-right: 45px;
+    margin-left: 45px;
+    padding-right: 45px;
     /* padding:0; */
     border-right: black solid;
 }
@@ -127,13 +127,13 @@
 }
 
 .abajo h1 {
-    font-size: 45px;
+    font-size: 27px;
 }
 
 .carrito {
     display: flex;
     justify-content: space-between;
-    width: 220px;
+    width: 155px;
 }
 
 .busqueda {
@@ -162,16 +162,17 @@
 /* estilos para el navbar intermedio */
 .nav_intermedio{
     background-color: #2A1717;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
-    height: 180px;
-    padding-top: 30px;
+    height: 100px;
+    padding-top: 12px;
 }
 
 .marcas{  
     display: flex;
     justify-content: space-around;
     list-style: none;
+    margin-right: 35px;
 }
 
 .sec_img_portada {
