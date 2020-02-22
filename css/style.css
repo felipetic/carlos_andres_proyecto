@@ -46,6 +46,7 @@
     height: 90px;
     width: 495px;
     border: black solid;
+    padding-left: 30px;
 }
 
 
@@ -57,12 +58,13 @@
 }
 
 .diahora {
-    margin-left: 10px;
+    padding-left: 150px;
     border: white solid;
+    width: 250px;
 }
 
 .horarios {
-    margin-left: 5px;
+    margin-left: 150px;
     display: flex;
     flex-direction: row;
     height: 90px;
@@ -108,19 +110,26 @@
     position: relative;
     justify-content: space-around;
     float: left;
-    margin-right: 45px;
-    margin-left: 45px;
-    padding-right: 45px;
+    margin: 15px 0 0 3px;
+    padding-right: 0px;
     padding:0;
-    border-right: black solid;
+    width: 150px;
+    text-align: center;
+    border-right: black solid 1px;
 }
 
+.barra ul li ul li {
+    border-right: 5px;
+    margin-right: -8px;
+    
+}
 .barra ul ul {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background: #eee;
+    background: #E81C1C;
+    border: black solid 1px;
     padding: 0;
 }
 
