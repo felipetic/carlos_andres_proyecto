@@ -1,7 +1,17 @@
-/* * {
-    margin:0;
-    padding: 0;
-} */
+/* .container{ 
+    display: flex; 
+    align-items: center; 
+    align-content: center; 
+    /*justify-content: center;*/ 
+    /* border: black 3px solid; 
+    height: 300px; 
+    /*flex-wrap: nowrap;*/ }  
+    /* @media only screen and (max-width: 800px)
+    { .container 
+        {     
+        flex-direction: column;     
+        background-color: pink; } }  */
+
 
 /* cambio tamaño fuente */
 .top-line {
@@ -14,12 +24,18 @@
     display: flex;
     flex-direction: row;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /*flex-wrap: wrap;*/
+    /* flex-wrap: wrap; */
     background-color: #E81C1C;
     justify-content: space-between;
     height: 100px;
-    width: 100%;
+    width: 100%;  
 }
+@media only screen and (max-width: 800px)
+{ .container 
+    {     
+    flex-direction: column; 
+    justify-content: space-around;
+    background-color: pink; } }
 
 /* parametros para la parte izquiera del nav */
 
@@ -29,16 +45,20 @@
     justify-content: center;
     height: 90px;
     width: 495px;
+    border: black solid;
 }
+
 
 /* parametros internos del lado izquierdo del nabar */
 
 .iconoYtelefono {
     margin-left: 10px;
+    border: black solid;
 }
 
 .diahora {
     margin-left: 10px;
+    border: white solid;
 }
 
 .horarios {
@@ -46,7 +66,8 @@
     display: flex;
     flex-direction: row;
     height: 90px;
-    width: 550px;
+    width: 950px;
+
 }
 
 /* parametros para la parte derecha del nav */
@@ -56,6 +77,12 @@
     height: 95px;
 }
 
+@media only screen and (max-width: 800px)
+{ .derecha 
+    {     
+    flex-direction: column; 
+    justify-content: space-around;
+    background-color: pink; } }
 /* item desplegable */
 
 .barra {
@@ -84,7 +111,7 @@
     margin-right: 45px;
     margin-left: 45px;
     padding-right: 45px;
-    /* padding:0; */
+    padding:0;
     border-right: black solid;
 }
 
@@ -125,6 +152,12 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
+@media only screen and (max-width: 800px)
+{ .abajo 
+    {     
+    flex-direction: column; 
+    justify-content: space-around;
+    background-color: pink; } }
 
 .abajo h1 {
     font-size: 27px;
@@ -167,6 +200,12 @@
     height: 100px;
     padding-top: 12px;
 }
+@media only screen and (max-width: 800px)
+{ .nav_intermedio 
+    {     
+    flex-direction: column; 
+    justify-content: space-around;
+    background-color: pink; } }
 
 .marcas{  
     display: flex;
@@ -179,6 +218,12 @@
     display: flex;
     justify-content: space-around;
 }
+@media only screen and (max-width: 800px)
+{ .sec_img_portada 
+    {     
+    flex-direction: column; 
+    justify-content: space-around;
+    background-color: pink; } }
 
 .img_portada {
     padding-left: 200px;
@@ -204,6 +249,12 @@
     display: flex;
     justify-content: space-around;
 }
+@media only screen and (max-width: 800px)
+{ .categorias 
+    {     
+    flex-direction: column; 
+    justify-content: space-around;
+    background-color: pink; } }
 
 .img_category{
     height: auto;
@@ -216,8 +267,13 @@
 .lanzamientos {
     height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
+@media only screen and (max-width: 800px)
+{ .lanzamientos 
+    {     
+    flex-direction: column; 
+    justify-content: space-around;
+    background-color: pink; } }
 
 .lanzamiento {
     font-size: 60px;
@@ -232,10 +288,15 @@
 }
 
 .mas_vendidos {
-    border: black solid;
     display: flex;
     justify-content: space-around;
 }
+@media only screen and (max-width: 800px)
+{ .mas_vendidos 
+    {     
+    flex-direction: column; 
+    justify-content: space-around;
+    background-color: pink; } }
 
 .img_mas_vendido  {
     height: auto;
@@ -244,3 +305,21 @@
     border: 2px solid grey;
 }
 
+.mas_vendido {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: 'Amatic SC' ;
+    text-align: center;
+    align-items: center;
+}
+
+.boton {
+    font-size: 25px; 
+    background-color: #E81C1C;
+    border-radius: 10px;
+    width: 230px;
+    height: 40px;
+    box-shadow: grey 10px;
+    margin-bottom: 50px;
+}
