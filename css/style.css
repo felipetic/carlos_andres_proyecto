@@ -5,7 +5,7 @@
     /*justify-content: center;*/ 
     /* border: black 3px solid; 
     height: 300px; 
-    /*flex-wrap: nowrap;*/ }  
+    /*flex-wrap: nowrap; } */
     /* @media only screen and (max-width: 800px)
     { .container 
         {     
@@ -42,35 +42,44 @@
 .izquierda {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    height: 90px;
-    width: 495px;
-    border: black solid;
-    padding-left: 30px;
+    justify-content: flex-start;
+    margin-left: 36px;
+    margin-top: 0px;
+    width: 650px;
 }
 
 
 /* parametros internos del lado izquierdo del nabar */
 
 .iconoYtelefono {
-    margin-left: 10px;
-    border: black solid;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -30px;
+
 }
 
 .diahora {
-    padding-left: 150px;
-    border: white solid;
-    width: 250px;
+    margin-top: -2px;
+    margin-right: 0px;
+    margin-left: 80px;
+    padding-left: 30px;
+
 }
 
 .horarios {
-    margin-left: 150px;
     display: flex;
     flex-direction: row;
-    height: 90px;
-    width: 950px;
+    margin-right: 100px;
+    height: 77px;
+    width: 800px;
 
 }
+
+.abiertos{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 
 /* parametros para la parte derecha del nav */
 
@@ -80,6 +89,7 @@
 }
 
 @media only screen and (max-width: 800px)
+
 { .derecha 
     {     
     flex-direction: column; 
@@ -89,14 +99,14 @@
 
 .barra {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .barra ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 0px;
+    padding: 3px;
 }
 
 .barra ul a {
@@ -242,10 +252,17 @@
 
 .texto_principal {
     width: 600px;
-    font-size: 80px;
+    font-size: 50px;
     padding-top: 180px;
     padding-left: 100px;
     font-family: 'Amatic SC' ;
+}
+
+.imagenreducida{
+    display: flex;
+    image-resolution: 30%;
+    width: 10px;
+    height: 500px;
 }
 
 .separador {
