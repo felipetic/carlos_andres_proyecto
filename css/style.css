@@ -1,33 +1,41 @@
-/* .container{ 
-    display: flex; 
-    align-items: center; 
-    align-content: center; 
-    /*justify-content: center;*/ 
-    /* border: black 3px solid; 
-    height: 300px; 
-    /*flex-wrap: nowrap; } */
-    /* @media only screen and (max-width: 800px)
-    { .container 
-        {     
-        flex-direction: column;     
-        background-color: pink; } }  */
-
 body{
     margin: 0px 0px 0px 0px;
 }
 
-@media only screen and (max-width: 800px)
+/*@media only screen and (max-width: 800px)
 { body 
     {     
     flex-direction: column; 
     justify-content: space-around;
  } 
-}
+}*/
 
 
 /* cambio tamaño fuente */
 .top-line {
     font-size: 16px;
+}
+
+@media only screen and (max-width: 768px)
+{ 
+    
+    .top-line 
+    { 
+    display: flex;    
+    flex-direction: column; 
+    font-size: 14px;
+ }
+
+ .container 
+ { 
+ display: flex;    
+ flex-direction: column; 
+ justify-content: center;
+ height: 100%;
+ width: 100%;  
+ /*margin: 0px 395px 10px 0px;*/
+}
+
 }
 
 /* parametros para el conteneedor principal */
@@ -43,13 +51,7 @@ body{
     width: 100%;  
 
 }
-@media only screen and (max-width: 800px)
-{ .container 
-    {     
-    flex-direction: column; 
-    justify-content: space-around;
-    margin: 0px 395px 10px 0px;
-    background-color: #E81C1C; } }
+
 
 /* parametros para la parte izquiera del nav */
 
@@ -58,7 +60,20 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 650px;   
+    width: 631px; 
+ 
+}
+
+@media only screen and (max-width: 768px)
+{ .izquierda 
+    { 
+        margin: 17px 0px 0px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 72%;
+        
+    } 
 }
 
 
@@ -66,18 +81,34 @@ body{
 
 .iconoYtelefono {
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
     margin: 13px 0px 0px 0px;
     width: 260px;
 
-
 }
+
+/*@media only screen and (max-width: 800px)
+{ .iconoYtelefono 
+    { 
+    display: flex;
+    align-items: center;
+    margin: 13px 0px 0px 0px;
+    width: 260px; } }*/
 
 .diahora p{
     margin: 17px 429px -13px 0px;
     width: 181px;
 
 }
+
+@media only screen and (max-width: 800px)
+{ .diahora p
+    { 
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 41px;
+        width: 181px; } }
+
 
 .horarios {
     display: flex;
@@ -88,11 +119,33 @@ body{
 
 }
 
+@media only screen and (max-width: 800px)
+{ .horarios
+    { 
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px -40px;
+    height: 27px;
+    width: 158px; 
+
+} }
+
 .abiertos{
     margin: 0px 10px 0px 40px;
     width: 190px;
 
 }
+
+@media only screen and (max-width: 800px)
+{ .abiertos
+    { 
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 5px 40px;
+    height: 30px;
+    width: 120px;
+    
+} }
 
 
 /* parametros para la parte derecha del nav */
@@ -100,15 +153,19 @@ body{
 .derecha {
     width: 740px;
     height: 95px;
+    border: black solid 1px;
 }
 
 /*@media only screen and (max-width: 800px)
 
 { .derecha 
-    {     
-    flex-direction: column; 
-    justify-content: space-around;
-    background-color: pink; } }*/
+    {    
+    display: flex; 
+    align-items: flex-start; 
+    width: 740px;
+    height: 95px;
+
+     } }*/
 
     /* item desplegable */
 
@@ -190,10 +247,14 @@ body{
 }
 /*@media only screen and (max-width: 800px)
 { .abajo 
-    {     
+    {   
+    display: flex;     
     flex-direction: column; 
     justify-content: space-around;
-    background-color: pink; } }*/
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+     } }*/
 
 .abajo h1 {
     font-size: 26px;
@@ -245,7 +306,12 @@ body{
     {     
     flex-direction: column; 
     justify-content: space-around;
-    background-color: pink; } }*/
+    background-color: #2A1717;
+    font-size: 30px;
+    color: white;
+    height: 100px;
+    padding-top: 12px;
+} }*/
 
 .marcas{  
     display: flex;
