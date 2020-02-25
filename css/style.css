@@ -315,14 +315,16 @@ footer .direccion {
 
     .main .categorias{
         height: auto;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         padding-right: 20px;
+        flex-wrap: nowrap;
     } 
     
     .main .img_category {
         width: 150px;
         height: 150px;
+        margin-bottom: 30px;
     }
 
     .main .lanzamientos {
@@ -371,7 +373,7 @@ footer .direccion {
      }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) { 
     .container {
         flex-direction: column;
     }
@@ -487,4 +489,4 @@ footer .direccion {
      footer .direccion {
          font-size: 12px;
      }
-}
+} */
