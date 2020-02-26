@@ -219,18 +219,24 @@ header nav a {
     width: 320px;
 }
 
+.boton_carrito {
+    width: 100%;
+    justify-content: ;
+    margin-left: auto;
+}
 .boton {
     font-size: 15px; 
-    background-color: #E81C1C;
+    margin: 0 0 50px 100px ;
     border-radius: 10px;
     width: 90px;
     height: auto;
     box-shadow: grey 10px;
-    margin: 0 0 50px 100px ;
-
+    
 }
+
 footer {
     width: 100%;
+    margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -238,11 +244,12 @@ footer {
 }
 
 .redes_sociales {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: auto;
 }
 
 .img_footer {
