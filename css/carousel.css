@@ -24,8 +24,12 @@
     position: relative;
     display: none;
     float: left;
-    width: 100%;
-    margin: 7% -100% 5% 25%;
+    width: 36%;
+    margin: 7% -100% 5% 32%;
+    /* background-color: blue; */
+    /* border: grey  dashed 2px; */
+    box-shadow: darkgray 5px 5px 5px 5px;
+    border-radius: 5%;
     /* margin-right: -100%;
     margin-left:25%;
     margin-bottom: 5%;
@@ -39,22 +43,44 @@
 
   .carousel-inner .carousel-item.active p {
     font-size: 20px;
-    width: 40%;
-    margin-bottom: -2%;
+    width: 100%;
+    margin-bottom: -3%;
   }
 
   .carousel-inner .carousel-item.active button {
-      margin-top: 2%;
-      margin-left: 15%;
+      margin-top: 3%;
+      margin-left: 36%;
+      margin-bottom: 2%;
+  }
+
+  .carousel-inner .carousel-item img {
+    margin-left: 5%;
+  }
+
+  #adidas .carousel-item img {
+    margin-left: -1%;
+    margin-top: -10%;
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+  
+  #reebok .carousel-item img {
+    /* margin-left: -1%; */
+    margin-top: 10%;
+    /* width: 90%; */
+    /* padding-left: 10%; */
+    /* padding-top: 10%; */
   }
 
   /* .carousel-inner .carousel-item.active h5, p, button {
     font-size: 20px;
     background-color: blue;
     /* margin-left:15%; */
-    /* justify-self: center; */
-  }
-   */
+    /* justify-self: center; 
+  }*/
+  
  
   
   @media (prefers-reduced-motion: reduce) {
