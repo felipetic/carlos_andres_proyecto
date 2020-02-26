@@ -26,14 +26,9 @@
     float: left;
     width: 36%;
     margin: 7% -100% 5% 32%;
-    /* background-color: blue; */
-    /* border: grey  dashed 2px; */
     box-shadow: darkgray 5px 5px 5px 5px;
     border-radius: 5%;
-    /* margin-right: -100%;
-    margin-left:25%;
-    margin-bottom: 5%;
-    margin-top:7%; */
+
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: -webkit-transform 0.6s ease-in-out;
@@ -67,20 +62,9 @@
 
   
   #reebok .carousel-item img {
-    /* margin-left: -1%; */
     margin-top: 10%;
-    /* width: 90%; */
-    /* padding-left: 10%; */
-    /* padding-top: 10%; */
+   
   }
-
-  /* .carousel-inner .carousel-item.active h5, p, button {
-    font-size: 20px;
-    background-color: blue;
-    /* margin-left:15%; */
-    /* justify-self: center; 
-  }*/
-  
  
   
   @media (prefers-reduced-motion: reduce) {
