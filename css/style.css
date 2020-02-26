@@ -266,7 +266,7 @@ footer {
         padding: 0;
     }
 
-    header .logo {
+    .logo {
         margin: 20px 0;
     }
 
@@ -274,18 +274,19 @@ footer {
         width: 100%;
     }
 
-    .main txt_y_busqueda {
+    .txt_y_busqueda {
         flex-direction: column;
     }
 
-    .main txt_y_busqueda busqueda {
+    .busqueda {
         flex-direction: column;
-        width: 70%;
-        margin: 20px 0px 0px 5px;
+        width: 55%;
+        margin: 20px 0px 0px 150px;
         font-size: 14px;
+        border: blue solid 1px;
     }
 
-    .main txt_y_busqueda busqueda input {
+    .input {
         margin-top: 15px;
     }
 
@@ -295,24 +296,26 @@ footer {
 
     }
 
-    .main .txt_y_busqueda .carrito {
+    .carrito {
         margin: -30px 0px 0px 600px;
-        width: 2%;
+        width: 7%;
+        border: #2A1717 solid 1px;
         
     } 
 
-    .main .nav_intermedio {
+    .nav_intermedio {
         flex-direction: row;
-        width: 83%;
+        width: 91%;
         font-size: 15px;
         height: auto;
         margin-left: 6px;
     }
 
-    .main .sec_img_portada {
+    .sec_img_portada {
         flex-direction: row;
-        width: 65%;
-        margin-left: 30px;
+        width: 93%;
+/*         margin-left: 1%;
+ */        border: blue solid 1px;
     }
 
     .main .sec_img_portada p {

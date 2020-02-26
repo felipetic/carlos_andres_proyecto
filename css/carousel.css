@@ -24,7 +24,7 @@
     position: relative;
     display: none;
     float: left;
-    width: 36%;
+    width: 42%;
     margin: 7% -100% 5% 32%;
     box-shadow: darkgray 5px 5px 5px 5px;
     border-radius: 5%;
@@ -66,6 +66,10 @@
    
   }
  
+.flechax{
+ opacity: 0;
+
+}
   
   @media (prefers-reduced-motion: reduce) {
     .carousel-item {
@@ -168,6 +172,7 @@
     width: 20px;
     height: 20px;
     background: no-repeat 50% / 100% 100%;
+    opacity: 0;
   }
   
   .carousel-control-prev-icon {
