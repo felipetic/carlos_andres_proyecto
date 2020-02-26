@@ -165,6 +165,10 @@ header nav a {
     height: 100px;
 }
 
+.boton_inicio {
+    position: fixed;
+    z-index: 50;
+}
 .categorias {
     width: 100%;
     height: auto;
