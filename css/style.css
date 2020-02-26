@@ -288,9 +288,9 @@ footer {
     .busqueda {
         flex-direction: column;
         width: 55%;
-        margin: 20px 0px 0px 150px;
+        margin: 20px 0px 0px 120px;
         font-size: 14px;
-        border: blue solid 1px;
+    
     }
 
     .input {
@@ -298,7 +298,7 @@ footer {
     }
 
     .boton_busqueda{
-
+        
         margin-top: 15px;
 
     }
@@ -306,118 +306,114 @@ footer {
     .carrito {
         margin: -30px 0px 0px 600px;
         width: 7%;
-        border: #2A1717 solid 1px;
+        
         
     } 
 
     .nav_intermedio {
         flex-direction: row;
-        width: 91%;
+        width: 83%;
         font-size: 15px;
         height: auto;
-        margin-left: 6px;
+        margin-left: 3px;
     }
 
     .sec_img_portada {
         flex-direction: row;
-        width: 93%;
-/*         margin-left: 1%;
- */        border: blue solid 1px;
+        width: 83%;
+        margin-left: 2px;
+        
     }
 
-    .main .sec_img_portada p {
-        font-size: 30px;
+    .sec_img_portada p {
+        font-size: 26px;
     }
 
-    .main .sec_img_portada img {
+    .sec_img_portada img {
         height: auto;
     }
 
-    .main .separador {
+    .separador {
         width: 83%;
-        height: 45px;
-        margin-left: 6px;
+        height: 44px;
+        margin-left: 3px;
        
     }
 
-    .main .categorias{
+    .categorias{
         height: auto;
-        width: 36%;
+        width: 83%;
         flex-direction: row;
         align-items: center;
-        margin-left: 185px;
         flex-wrap: nowrap;
+    
     } 
     
-    .main .img_category {
+    .img_category {
         width: 150px;
         height: 150px;
         margin-bottom: 30px;
     }
 
-    .main .lanzamientos {
+    .lanzamientos {
         width: 50%;
     }
 
-    .main .lanzamientos h2 {
+    .lanzamientos h2 {
         font-size: 25px;
         width: 51%;
-        margin-left: 50%;
-        border: #2A1717 solid 1px;
+        margin-left: 60%;
+        
     }
 
-    .main .lanzamientos p {
+    .lanzamientos p {
         font-size: 15px;
-        margin-left: 100px;
-        width: 105%;
-        border: #2A1717 solid 1px;
+        margin-left: 105px;
+        width: 120%;
+        
     }
 
-    .main mas_vendidos  {
+    .mas_vendidos  {
         height: auto;
-        width: 36%;
+        width: 58%;
         flex-direction: row;
-        margin-left: 120px;
+        margin-left: 129px;
         flex-wrap: nowrap;
-        /* border: #E81c1c solid 1px; */
+        
+        
         
     }
 
     .mas_vendido{
         height: auto;
-        width: 40%;
+        width: 30%;
         margin: 0px 33px 0px 0px;
-        border: purple solid 1px;
+        
     }
 
-    .main .mas_vendidos .img_mas_vendido {
+    .img_mas_vendido {
         height: 150px;
         width: auto;
        
 
     }
 
-    .txt_img_mas_vendido{
 
-       margin-left: 100px;
-
-    }
-
-
-    .main .mas_vendidos p {
-        font-size: 15px;
+    .mas_vendidos p {
+        font-size: 13px;
         height: auto;
-        width: 90%;
-        margin-left: 9px;
-        border: #E81C1C solid 1px;
+        width: 100%;
+        padding: 5px;
+        
     }
 
-    .main .mas_vendidos .boton {
+    .boton {
         font-size: 10px; 
         width: auto;
         height: auto;
-        margin: 0 0 50px 11px ;
-        border: green solid 1px;
+        margin: 10px 0px 0px 33px ;
+        background-color:  #E81C1C;
+        
     }
 
     footer .redes_sociales .img_footer {
@@ -436,10 +432,9 @@ footer {
     header {
         flex-direction: column;
         padding: 0;
-        background-color: aqua;
     }
 
-    header .logo {
+    .logo {
         margin: 20px 0;
     }
 
@@ -447,95 +442,139 @@ footer {
         width: 100%;
     }
 
-    .main .txt_y_busqueda {
+    .txt_y_busqueda {
         flex-direction: column;
     }
-    .main .txt_y_busqueda .busqueda {
+
+    .busqueda {
         flex-direction: column;
-        width: 60%;
-        padding: 20px 0;
-        margin-left: 100px;
-        margin-top: 15px;
+        width: 55%;
+        margin: 20px 0px 0px 120px;
         font-size: 14px;
+    
     }
 
-    .main .txt_y_busqueda .busqueda input {
+    .input {
         margin-top: 15px;
     }
-    .main .txt_y_busqueda .carrito {
-        margin-left: 150px;
+
+    .boton_busqueda{
+        
+        margin-top: 15px;
+
+    }
+
+    .carrito {
+        margin: -30px 0px 0px 600px;
+        width: 7%;
+        
+        
     } 
 
-    .main .nav_intermedio {
-        flex-direction: column;
-        width: 50%;
+    .nav_intermedio {
+        flex-direction: row;
+        width: 83%;
         font-size: 15px;
         height: auto;
-        margin-left: 100px;;
+        margin-left: 3px;
     }
 
-    .main .sec_img_portada {
-        flex-direction: column;
-        width: 80%;
-    }
-
-    .main .sec_img_portada p {
-        font-size: 30px;
-    }
-
-    .main .sec_img_portada img {
-        height: auto;
-    }
-
-    .main .separador {
-        width: 700px;
-    }
-
-    .main .categorias{
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-        padding-right: 200px;
-    } 
-    
-    .main .img_category {
-        width: 150px;
-        height: 150px;
-    }
-
-    .main .lanzamientos {
-        width: 60%;
-    }
-
-    .main .lanzamientos h2 {
-        font-size: 25px;
-        padding-left: 120px;
-    }
-
-    .main .lanzamientos p {
-        font-size: 15px;
-        padding-left: 120px;
-    }
-
-    .main .mas_vendidos {
-        flex-direction: column;
+    .sec_img_portada {
+        flex-direction: row;
+        width: 83%;
+        margin-left: 2px;
         
     }
 
-    .main .mas_vendidos .img_mas_vendido {
-        height: 150px;
-        margin-left: 180px;
-    }
-    .main .mas_vendidos p {
-        font-size: 15px;
-        margin-left: 100px;
+    .sec_img_portada p {
+        font-size: 26px;
     }
 
-    .main .mas_vendidos .boton {
+    .sec_img_portada img {
+        height: auto;
+    }
+
+    .separador {
+        width: 83%;
+        height: 44px;
+        margin-left: 3px;
+       
+    }
+
+    .categorias{
+        height: auto;
+        width: 83%;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+    
+    } 
+    
+    .img_category {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+    .lanzamientos {
+        width: 50%;
+    }
+
+    .lanzamientos h2 {
+        font-size: 25px;
+        width: 51%;
+        margin-left: 60%;
+        
+    }
+
+    .lanzamientos p {
+        font-size: 15px;
+        margin-left: 105px;
+        width: 120%;
+        
+    }
+
+    .mas_vendidos  {
+        height: auto;
+        width: 58%;
+        flex-direction: row;
+        margin-left: 129px;
+        flex-wrap: nowrap;
+        
+        
+        
+    }
+
+    .mas_vendido{
+        height: auto;
+        width: 30%;
+        margin: 0px 33px 0px 0px;
+        
+    }
+
+    .img_mas_vendido {
+        height: 150px;
+        width: auto;
+       
+
+    }
+
+
+    .mas_vendidos p {
+        font-size: 13px;
+        height: auto;
+        width: 100%;
+        padding: 5px;
+        
+    }
+
+    .boton {
         font-size: 10px; 
         width: auto;
         height: auto;
-        margin: 0 0 50px 230px ;
+        margin: 10px 0px 0px 33px ;
+        background-color:  #E81C1C;
+        
     }
 
     footer .redes_sociales .img_footer {
