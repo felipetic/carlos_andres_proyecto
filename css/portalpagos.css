@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color: black;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: darkgray 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: rgb(206, 54, 54);
+}
+
+.boton {
+    margin-bottom: 5%;
+}
+
+.agrupa {
+   
+}
