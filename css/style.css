@@ -165,15 +165,7 @@ header nav a {
     height: 100px;
 }
 
-<<<<<<< HEAD
-.boton_inicio {
-    position: fixed;
-    z-index: 50;
-}
-.main .categorias {
-=======
 .categorias {
->>>>>>> master
     width: 100%;
     height: auto;
     display: flex;
