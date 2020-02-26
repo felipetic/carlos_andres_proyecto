@@ -269,12 +269,11 @@ footer .direccion {
     .main .txt_y_busqueda {
         flex-direction: column;
     }
+
     .main .txt_y_busqueda .busqueda {
         flex-direction: column;
-        width: 60%;
-        padding: 20px 0;
-        margin-left: 150px;
-        margin-top: 15px;
+        width: 40%;
+        margin: 20px 0px 0px 5px;
         font-size: 14px;
     }
 
@@ -282,20 +281,22 @@ footer .direccion {
         margin-top: 15px;
     }
     .main .txt_y_busqueda .carrito {
-        margin-left: 150px;
+        margin: -30px 0px 0px 380px;
+        width: 2%;
+        
     } 
 
     .main .nav_intermedio {
         flex-direction: row;
-        width: 100%;
+        width: 90%;
         font-size: 15px;
         height: auto;
-        margin-left: 0px;;
+        margin-left: 6px;
     }
 
     .main .sec_img_portada {
-        flex-direction: column;
-        width: 80%;
+        flex-direction: row;
+        width: 36%;
         margin-left: 60px;
     }
 
@@ -308,16 +309,17 @@ footer .direccion {
     }
 
     .main .separador {
-        width: auto;
+        width: 42%;
         height: 45px;
        
     }
 
     .main .categorias{
         height: auto;
+        width: 36%;
         flex-direction: row;
         align-items: center;
-        padding-right: 20px;
+        margin-left: 30px;
         flex-wrap: nowrap;
     } 
     
@@ -328,40 +330,60 @@ footer .direccion {
     }
 
     .main .lanzamientos {
-        width: 60%;
+        width: 50%;
     }
 
     .main .lanzamientos h2 {
         font-size: 25px;
-        padding-left: 260px;
+        width: 35%;
+        margin-left: 28%;
+        border: #2A1717 solid 1px;
     }
 
     .main .lanzamientos p {
         font-size: 15px;
-        margin-left: 140px;
-        width: 100%;
+        margin-left: 70px;
+        width: 70%;
+        border: #2A1717 solid 1px;
     }
 
     .main .mas_vendidos {
-        flex-direction: column;
-        margin-left: 110px;
+        height: auto;
+        width: 36%;
+        flex-direction: row;
+        margin-left: 130px;
+        flex-wrap: nowrap;
+        /* border: #E81c1c solid 1px; */
         
+    }
+
+    .mas_vendido{
+        height: auto;
+        width: 60%;
+        padding-right: 5px;
+        margin: 0px 10px 0px 0px;
+        border: purple solid 1px;
     }
 
     .main .mas_vendidos .img_mas_vendido {
         height: 150px;
-        margin-left: 184px;
+       
+
     }
+
+
     .main .mas_vendidos p {
         font-size: 15px;
-        margin-left: 100px;
+        height: auto;
+        width: 105%;
+        border: #E81C1C solid 1px;
     }
 
     .main .mas_vendidos .boton {
         font-size: 10px; 
         width: auto;
         height: auto;
-        margin: 0 0 50px 222px ;
+        margin: 0 0 50px 11px ;
     }
 
     footer .redes_sociales .img_footer {
