@@ -8,9 +8,9 @@
     <title>Tu par perfecto</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/images/favicon.png" />
-    <link rel="stylesheet" href="/css/">
     <link rel="stylesheet" href="/css/carousel.css">
     <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/forms.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 
 </head>
@@ -49,161 +49,47 @@
                     <img src="/images/shopping-cart.png">
                 </div>
             </section>
-
             <section class="separador"></section>
-
-            <a href="/index.html"><button type="button" class="boton_inicio btn btn-danger">Volver al
-                    inicio</button></a>
-
-            <section class="cuerpo_principal">
-                <h1>Pagar</h1>
-                <div class="pagos">
-                    <div class="pasos_pago">
-                        <div class="paso_1">
-                            <h4>Paso 1: Opciones de pago</h4>
-                            <div>
-                                <h3>Nuevo cliente</h3>
-                                <p>Opciones de pago:</p>
-                                <div class="radio">
-                                    <input type="radio" name="cuenta" checked="checked">
-                                    <label for="registrocuenta">Registrar cuenta</label>
-                                </div>
-                                <div class="radio">
-                                    <input type="radio" name="cuenta">
-                                    <label for="registrocuenta">Cliente invitado</label>
-                                </div>
-                                <p>Si creas una cuenta podras comprar mucho mas rapido.</p>
-                                <button class="boton" type="submit">Registrarse</button>
-                            </div>
-                        </div>
-
-                        <div class="paso_2">
-                            <h4>Paso 2: Cuenta y detalles del pago</h4>
-                            <div class="datos_personales">
-                                <form action="datos">
-                                    <div class="datos">
-                                        <legend>Tus datos personales:</legend>
-                                        <div class="datos">
-                                            <label for="datos">Nombres</label>
-                                            <input type="text" placeholder="Nombres">
-                                        </div>
-                                    </div>
-                                    <div class="datos">
-                                        <label for="datos">Apellidos</label>
-                                        <input type="text" placeholder="Apellidos">
-                                    </div>
-                                    <div class="datos">
-                                        <label for="datos">email</label>
-                                        <input type="email" placeholder="Correo electronico">
-                                    </div>
-                                    <div class="datos">
-                                        <label for="datos">Telefono</label>
-                                        <input type="text" placeholder="Telefono">
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="contrasena">
-                                <form action="contrasena">
-                                    <div class="contrasena">
-                                        <legend>Tu contraseña:</legend>
-                                        <div class="contrasena">
-                                            <label for="contrasena">Contraseña</label>
-                                            <input type="password" placeholder="Contraseña">
-                                        </div>
-                                    </div>
-                                    <div class="contrasena">
-                                        <label for="contrasena">Confirma tu contraseña</label>
-                                        <input type="password" placeholder="Confirma tu contraseña">
-                                    </div>
-                                </form>
-                            </div>
-
-                            <div class="Tu direccion">
-                                <form action="direccion">
-                                    <div class="direccion">
-                                        <legend>Tu dirección:</legend>
-                                        <div class="calle">
-                                            <label for="calle">Calles</label>
-                                            <input type="text" placeholder="Calles">
-                                        </div>
-                                    </div>
-                                    <div class="direccion">
-                                        <label for="nomenclatura">Nomenclatura</label>
-                                        <input type="number" placeholder="Nomenclatura">
-                                    </div>
-                                    <div class="direccion">
-                                        <label for="ciudad">Ciudad</label>
-                                        <input type="text" placeholder="Ciudad">
-                                    </div>
-                                    <div class="direccion">
-                                        <label for="departamento">Departamento</label>
-                                        <input type="text" placeholder="Departamento">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-                        <div class="paso_3">
-                            <h4>Paso 3: Metodos de pago</h4>
-                            <form action="">
-                                <div class="pagos">
-                                    <legend>Metodo de pago</legend>
-                                    <div class="banco">
-                                        <legend>Selecciona un banco:</legend>
-                                        <select name="banco">
-                                            <option value="banco">Bancolombia</option>
-                                            <option value="banco">Davivienda</option>
-                                            <option value="banco">Banco de Bogota</option>
-                                            <option value="banco">Banco Popular</option>
-                                            <option value="banco">City Bank</option>
-                                            <option value="banco">Banco Santander</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="banco">
-                                        <label for="correo">Ingrese tu correo registrado</label>
-                                        <input type="email" placeholder="Ingresa tu correo">
-                                    </div>
-
-                                    <div class="banco">
-                                        <label for="usuario">Ingrese su usuario</label>
-                                        <input type="text" placeholder="Ingresa tu usuario">
-                                    </div>
-
-                                    <div class="banco">
-                                        <label for="contrasena">Ingrese tu contraseña</label>
-                                        <input type="password" placeholder="Ingresa tu contraseña">
-                                    </div>
-                                </div>
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
         </section>
-
-
-        <footer>
-            <div class="redes_sociales">
-                <img class="img_footer" src="/images/facebook.png" alt="Facebook">
-                <img class="img_footer" src="/images/instagram.png" alt="Instagram">
-                <img class="img_footer" src="/images/whatsapp.png" alt="WhatsApp">
-                <img class="img_footer" src="/images/youtube.png" alt="Youtube">
-            </div>
-            <p class="direccion">Estamos ubicados en la zona industrial de Belen, Calle G # 106- 96 <br>
-                ✆ Telefonos: 3001112233; 3453336688 <br>
-                Estamos abiertos de lunes a sabado 10am a 9pm y los domingos de 11am a 8pm
-            </p>
-        </footer>
     </div>
 
+    <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+            
 
 
 
 
 
+    <footer>
+        <div class="redes_sociales">
+            <img class="img_footer" src="/images/facebook.png" alt="Facebook">
+            <img class="img_footer" src="/images/instagram.png" alt="Instagram">
+            <img class="img_footer" src="/images/whatsapp.png" alt="WhatsApp">
+            <img class="img_footer" src="/images/youtube.png" alt="Youtube">
+        </div>
+        <p class="direccion">Estamos ubicados en la zona industrial de Belen, Calle G # 106- 96 <br>
+            ✆ Telefonos: 3001112233; 3453336688 <br>
+            Estamos abiertos de lunes a sabado 10am a 9pm y los domingos de 11am a 8pm
+        </p>
+    </footer>
+
+    <a href="/index.html"><button type="button" class="boton_inicio btn btn-danger">Volver al
+            inicio</button></a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
