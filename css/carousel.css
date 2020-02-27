@@ -51,6 +51,8 @@
 
   .carousel-inner .carousel-item img {
     margin-left: 20%;
+    width: auto;
+    height: auto;
   }
 
   #adidas .carousel-item img {
