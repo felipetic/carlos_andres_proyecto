@@ -66,10 +66,9 @@
    
   }
  
-.flechax{
- opacity: 0;
 
-}
+
+
   
   @media (prefers-reduced-motion: reduce) {
     .carousel-item {
